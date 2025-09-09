@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #ff4d4d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #ffe6e6;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff4d4d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#menu {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#contact {
+  padding: 40px 20px;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
